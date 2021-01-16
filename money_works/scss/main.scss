@@ -1,5 +1,12 @@
 $primary-color: #54E38E;
 
+@import 'account';
+@import 'credit';
+@import 'home';
+@import 'knowledge';
+@import 'login';
+@import 'menu';
+@import 'signup';
 
 
 body {
