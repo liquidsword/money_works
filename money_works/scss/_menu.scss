@@ -17,7 +17,7 @@
         justify-content: center;
         height: 100vh;
         overflow: hidden;
-        background: $primary-color;
+        background: $secondary-color;
         list-style-type: none;
         padding-right: 1rem;
         transform: translateY(-100%);
@@ -48,14 +48,7 @@
             }
 
         }
-        &.img {
-            border: 1px solid #ddd;
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 4px;
-            padding: 5px;
-            width: 150px;
-        }
+        
     }
     
 }

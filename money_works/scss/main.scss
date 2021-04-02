@@ -6,7 +6,8 @@
 
 
 body {
-    background: $primary-color;
+    background-color: lightblue;
+    display: block;
 }
 
 h1, h2, h3 {
@@ -28,3 +29,4 @@ header {
     width: 100%;
     padding: 1rem;
 }
+
