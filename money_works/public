@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - sass
+
+Backtrace:
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/plugin.rb:108:in `method_missing'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/exec/base.rb:52:in `parse'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/lib/sass/exec/base.rb:19:in `parse!'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/gems/sass-4.0.0.alpha.1/bin/scss:13:in `<top (required)>'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/bin/scss:23:in `load'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/bin/scss:23:in `<main>'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:24:in `eval'
+/Users/audenrobertson/.rvm/gems/ruby-2.5.1/bin/ruby_executable_hooks:24:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - sass"; }

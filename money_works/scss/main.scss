@@ -1,12 +1,10 @@
-
 @import 'home';
 @import 'menu';
 @import 'config';
 @import 'responsiveness';
 
-
 body {
-    background-color: lightblue;
+    background: $primary-color;
     display: block;
 }
 
@@ -20,7 +18,7 @@ a {
 }
 
 .text-secondary {
-    color: $secondary-color;
+    color: lightcoral;
 }
 
 header {

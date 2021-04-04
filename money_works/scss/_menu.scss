@@ -17,7 +17,7 @@
         justify-content: center;
         height: 100vh;
         overflow: hidden;
-        background: $secondary-color;
+        //background: $secondary-color;
         list-style-type: none;
         padding-right: 1rem;
         transform: translateY(-100%);
@@ -33,7 +33,7 @@
             }
 
             &.active > a {
-                color: $secondary-color;
+                color: lightblue;
             }
         }
         &_link {
@@ -44,11 +44,14 @@
             font-weight: 300;
 
             &:hover {
-                color: $secondary-color;
+                color: lightblue;
             }
 
         }
-        
+        .img {
+            max-width:100%;
+            height:auto;
+        }
     }
     
 }
